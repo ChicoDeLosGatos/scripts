@@ -7,6 +7,7 @@ read -p 'Elige una opción: ' option
 echo ""
 case $option in
 0) echo "No se ha configurado nada".
+echo ""
 exit
 ;;
 1) mkdir -p ~/.tmp-files #Estamos en RCO-NoX
@@ -222,6 +223,9 @@ rm ~/.tmp-files/hosts-new.conf
 echo "Hosts actualizados."
 echo ""
 echo "Configuración realizada."
-echo "Se ha realizado una copia de seguridad de las antiguas interfaces y hosts situada en el directorio: ~/.tmp-files"
-echo "Se va a cerrar el asistente."
+echo ""
+echo "Se ha realizado una copia de seguridad de las antiguas configuraciones de las interfaces y los hosts en el directorio: ~/.tmp-files"
+echo ""
+echo "Se va a cerrar el asistente. Que tengas un buen dia y bebe mucha agüita."
+echo ""
 exit

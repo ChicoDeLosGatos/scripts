@@ -49,9 +49,9 @@ cp /etc/sysconfig/network-scripts/ifcfg-ens37 ~/.tmp-files/ens37-old.conf
 echo '127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4' > ~/.tmp-files/hosts-new.conf 
 echo '::1         localhost localhost.localdomain localhost6 localhost6.localdomain6' >> ~/.tmp-files/hosts-new.conf 
 echo '' >> ~/.tmp-files/hosts-new.conf 
-echo '192.168.18.139 rco-nox.redescorporativas.es rco-nox' >> ~/.tmp-files/hosts-new.conf 
-echo '192.168.18.139 w001.redescorporativas.es' >> ~/.tmp-files/hosts-new.conf 
-echo '192.168.18.139 x001.redescorporativas.es' >> ~/.tmp-files/hosts-new.conf 
+echo '192.168.18.142 rco-nox.redescorporativas.es rco-nox' >> ~/.tmp-files/hosts-new.conf 
+echo '192.168.18.142 w001.redescorporativas.es' >> ~/.tmp-files/hosts-new.conf 
+echo '192.168.18.142 x001.redescorporativas.es' >> ~/.tmp-files/hosts-new.conf 
 echo '' >> ~/.tmp-files/hosts-new.conf 
 echo '192.168.18.140 rco-x.redescorporativas.es rco-x' >> ~/.tmp-files/hosts-new.conf 
 cp /etc/hosts ~/.tmp-files/hosts-old.conf 
@@ -140,9 +140,9 @@ cp /etc/sysconfig/network-scripts/ifcfg-ens37 ~/.tmp-files/ens37-old.conf
 echo '127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4' > ~/.tmp-files/hosts-new.conf 
 echo '::1         localhost localhost.localdomain localhost6 localhost6.localdomain6' >> ~/.tmp-files/hosts-new.conf 
 echo '' >> ~/.tmp-files/hosts-new.conf 
-echo '192.168.18.139 rco-nox.redescorporativas.es rco-nox' >> ~/.tmp-files/hosts-new.conf 
-echo '192.168.18.139 w001.redescorporativas.es' >> ~/.tmp-files/hosts-new.conf 
-echo '192.168.18.139 x001.redescorporativas.es' >> ~/.tmp-files/hosts-new.conf 
+echo '192.168.18.142 rco-nox.redescorporativas.es rco-nox' >> ~/.tmp-files/hosts-new.conf 
+echo '192.168.18.142 w001.redescorporativas.es' >> ~/.tmp-files/hosts-new.conf 
+echo '192.168.18.142 x001.redescorporativas.es' >> ~/.tmp-files/hosts-new.conf 
 echo '' >> ~/.tmp-files/hosts-new.conf 
 echo '192.168.18.140 rco-x.redescorporativas.es rco-x' >> ~/.tmp-files/hosts-new.conf 
 cp /etc/hosts ~/.tmp-files/hosts-old.conf 
